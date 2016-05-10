@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27003AA21CD53ADA00C7C786 /* TypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27003AA11CD53ADA00C7C786 /* TypeExtensions.swift */; };
+		27003AA41CD53D9000C7C786 /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27003AA31CD53D9000C7C786 /* RandomNumberGenerator.swift */; };
+		27003AAA1CD5B3DF00C7C786 /* TypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27003AA91CD5B3DF00C7C786 /* TypeExtensionsTests.swift */; };
+		27003AAC1CD5BBF900C7C786 /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27003AAB1CD5BBF900C7C786 /* PhotoTests.swift */; };
+		271B0F401CE12221003833E0 /* SwapicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B0F3F1CE12221003833E0 /* SwapicTableViewCell.swift */; };
+		2725906F1CDFC78400088467 /* MockPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2725906E1CDFC78400088467 /* MockPhotos.swift */; };
+		275CFA3B1CD70B93005AF1BD /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CFA3A1CD70B93005AF1BD /* Page.swift */; };
+		275CFA3D1CD7C28E005AF1BD /* PageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CFA3C1CD7C28E005AF1BD /* PageTests.swift */; };
+		276CAA801CD3CEB300A50321 /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CAA7F1CD3CEB300A50321 /* PhotoSize.swift */; };
+		276CAA821CD3D0C000A50321 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CAA811CD3D0C000A50321 /* Random.swift */; };
+		27828B5E1CDBEA0F00CAF151 /* NetworkRequestErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27828B5D1CDBEA0F00CAF151 /* NetworkRequestErrorTests.swift */; };
+		27C9CD271CD2AF9B003D7D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD261CD2AF9B003D7D59 /* AppDelegate.swift */; };
+		27C9CD2C1CD2AF9B003D7D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CD2A1CD2AF9B003D7D59 /* Main.storyboard */; };
+		27C9CD2E1CD2AF9C003D7D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CD2D1CD2AF9C003D7D59 /* Assets.xcassets */; };
+		27C9CD311CD2AF9C003D7D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CD2F1CD2AF9C003D7D59 /* LaunchScreen.storyboard */; };
+		27C9CD471CD2AF9C003D7D59 /* SwapicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD461CD2AF9C003D7D59 /* SwapicUITests.swift */; };
+		27C9CD551CD2B6B1003D7D59 /* SwapicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD541CD2B6B1003D7D59 /* SwapicTableViewController.swift */; };
+		27C9CD571CD2BAB9003D7D59 /* SwapicTVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD561CD2BAB9003D7D59 /* SwapicTVCExtension.swift */; };
+		27C9CD5C1CD2BBC0003D7D59 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD5B1CD2BBC0003D7D59 /* FlickrService.swift */; };
+		27C9CD5E1CD2BC3E003D7D59 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD5D1CD2BC3E003D7D59 /* Photo.swift */; };
+		27C9CD601CD2BCAF003D7D59 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD5F1CD2BCAF003D7D59 /* Gallery.swift */; };
+		27C9CD621CD2BD35003D7D59 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CD611CD2BD35003D7D59 /* NetworkOperation.swift */; };
+		27C9CD641CD2BD7C003D7D59 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CD631CD2BD7C003D7D59 /* Keys.plist */; };
+		27DD6BB31CD7CE3D00AED6C9 /* RandomisableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD6BB21CD7CE3D00AED6C9 /* RandomisableTests.swift */; };
+		27DD6BB51CD7CE9E00AED6C9 /* RandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD6BB41CD7CE9E00AED6C9 /* RandomTests.swift */; };
+		27DD6BB71CD7E27C00AED6C9 /* GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD6BB61CD7E27C00AED6C9 /* GalleryTests.swift */; };
+		27DD6BBB1CD8565500AED6C9 /* SwapicTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD6BBA1CD8565500AED6C9 /* SwapicTableViewControllerTests.swift */; };
+		27DD6BBD1CD8671F00AED6C9 /* NetworkOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD6BBC1CD8671F00AED6C9 /* NetworkOperationTests.swift */; };
+		27DD98191CDACD1900B6409E /* FlickrServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD98181CDACD1900B6409E /* FlickrServiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C9CD381CD2AF9C003D7D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C9CD1B1CD2AF9A003D7D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C9CD221CD2AF9A003D7D59;
+			remoteInfo = Swapic;
+		};
+		27C9CD431CD2AF9C003D7D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C9CD1B1CD2AF9A003D7D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C9CD221CD2AF9A003D7D59;
+			remoteInfo = Swapic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27003AA11CD53ADA00C7C786 /* TypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeExtensions.swift; sourceTree = "<group>"; };
+		27003AA31CD53D9000C7C786 /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		27003AA91CD5B3DF00C7C786 /* TypeExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeExtensionsTests.swift; sourceTree = "<group>"; };
+		27003AAB1CD5BBF900C7C786 /* PhotoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTests.swift; sourceTree = "<group>"; };
+		271B0F3F1CE12221003833E0 /* SwapicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapicTableViewCell.swift; sourceTree = "<group>"; };
+		2725906E1CDFC78400088467 /* MockPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockPhotos.swift; sourceTree = "<group>"; };
+		275CFA3A1CD70B93005AF1BD /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		275CFA3C1CD7C28E005AF1BD /* PageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTests.swift; sourceTree = "<group>"; };
+		276CAA7F1CD3CEB300A50321 /* PhotoSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
+		276CAA811CD3D0C000A50321 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		27828B5D1CDBEA0F00CAF151 /* NetworkRequestErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestErrorTests.swift; sourceTree = "<group>"; };
+		27C9CD231CD2AF9A003D7D59 /* Swapic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swapic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C9CD261CD2AF9B003D7D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27C9CD2B1CD2AF9B003D7D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27C9CD2D1CD2AF9C003D7D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C9CD301CD2AF9C003D7D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27C9CD321CD2AF9C003D7D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C9CD371CD2AF9C003D7D59 /* SwapicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C9CD3D1CD2AF9C003D7D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C9CD421CD2AF9C003D7D59 /* SwapicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C9CD461CD2AF9C003D7D59 /* SwapicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapicUITests.swift; sourceTree = "<group>"; };
+		27C9CD481CD2AF9C003D7D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C9CD541CD2B6B1003D7D59 /* SwapicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapicTableViewController.swift; sourceTree = "<group>"; };
+		27C9CD561CD2BAB9003D7D59 /* SwapicTVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapicTVCExtension.swift; sourceTree = "<group>"; };
+		27C9CD5B1CD2BBC0003D7D59 /* FlickrService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+		27C9CD5D1CD2BC3E003D7D59 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		27C9CD5F1CD2BCAF003D7D59 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		27C9CD611CD2BD35003D7D59 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		27C9CD631CD2BD7C003D7D59 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		27DD6BB21CD7CE3D00AED6C9 /* RandomisableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomisableTests.swift; sourceTree = "<group>"; };
+		27DD6BB41CD7CE9E00AED6C9 /* RandomTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomTests.swift; sourceTree = "<group>"; };
+		27DD6BB61CD7E27C00AED6C9 /* GalleryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryTests.swift; sourceTree = "<group>"; };
+		27DD6BBA1CD8565500AED6C9 /* SwapicTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapicTableViewControllerTests.swift; sourceTree = "<group>"; };
+		27DD6BBC1CD8671F00AED6C9 /* NetworkOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperationTests.swift; sourceTree = "<group>"; };
+		27DD98181CDACD1900B6409E /* FlickrServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrServiceTests.swift; path = ../FlickrServiceTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C9CD201CD2AF9A003D7D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C9CD341CD2AF9C003D7D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C9CD3F1CD2AF9C003D7D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2725906C1CDFA1EE00088467 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD5D1CD2BC3E003D7D59 /* Photo.swift */,
+				27C9CD5F1CD2BCAF003D7D59 /* Gallery.swift */,
+				276CAA7F1CD3CEB300A50321 /* PhotoSize.swift */,
+				276CAA811CD3D0C000A50321 /* Random.swift */,
+				27003AA31CD53D9000C7C786 /* RandomNumberGenerator.swift */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		2725906D1CDFA20E00088467 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD5B1CD2BBC0003D7D59 /* FlickrService.swift */,
+				27C9CD611CD2BD35003D7D59 /* NetworkOperation.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		27C9CD1A1CD2AF9A003D7D59 = {
+			isa = PBXGroup;
+			children = (
+				27C9CD251CD2AF9B003D7D59 /* Swapic */,
+				27C9CD3A1CD2AF9C003D7D59 /* SwapicTests */,
+				27C9CD451CD2AF9C003D7D59 /* SwapicUITests */,
+				27C9CD241CD2AF9A003D7D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C9CD241CD2AF9A003D7D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD231CD2AF9A003D7D59 /* Swapic.app */,
+				27C9CD371CD2AF9C003D7D59 /* SwapicTests.xctest */,
+				27C9CD421CD2AF9C003D7D59 /* SwapicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C9CD251CD2AF9B003D7D59 /* Swapic */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD591CD2BB43003D7D59 /* Controller */,
+				27C9CD581CD2BB2C003D7D59 /* View */,
+				27C9CD5A1CD2BBA7003D7D59 /* Model */,
+				27C9CD261CD2AF9B003D7D59 /* AppDelegate.swift */,
+				27C9CD321CD2AF9C003D7D59 /* Info.plist */,
+				27C9CD631CD2BD7C003D7D59 /* Keys.plist */,
+			);
+			path = Swapic;
+			sourceTree = "<group>";
+		};
+		27C9CD3A1CD2AF9C003D7D59 /* SwapicTests */ = {
+			isa = PBXGroup;
+			children = (
+				27DD6BBA1CD8565500AED6C9 /* SwapicTableViewControllerTests.swift */,
+				27DD6BB61CD7E27C00AED6C9 /* GalleryTests.swift */,
+				27003AAB1CD5BBF900C7C786 /* PhotoTests.swift */,
+				27DD6BB41CD7CE9E00AED6C9 /* RandomTests.swift */,
+				27DD6BB21CD7CE3D00AED6C9 /* RandomisableTests.swift */,
+				27828B5D1CDBEA0F00CAF151 /* NetworkRequestErrorTests.swift */,
+				27DD98181CDACD1900B6409E /* FlickrServiceTests.swift */,
+				27DD6BBC1CD8671F00AED6C9 /* NetworkOperationTests.swift */,
+				275CFA3C1CD7C28E005AF1BD /* PageTests.swift */,
+				27003AA91CD5B3DF00C7C786 /* TypeExtensionsTests.swift */,
+				27C9CD3D1CD2AF9C003D7D59 /* Info.plist */,
+				2725906E1CDFC78400088467 /* MockPhotos.swift */,
+			);
+			path = SwapicTests;
+			sourceTree = "<group>";
+		};
+		27C9CD451CD2AF9C003D7D59 /* SwapicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD461CD2AF9C003D7D59 /* SwapicUITests.swift */,
+				27C9CD481CD2AF9C003D7D59 /* Info.plist */,
+			);
+			path = SwapicUITests;
+			sourceTree = "<group>";
+		};
+		27C9CD581CD2BB2C003D7D59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD2A1CD2AF9B003D7D59 /* Main.storyboard */,
+				27C9CD2D1CD2AF9C003D7D59 /* Assets.xcassets */,
+				27C9CD2F1CD2AF9C003D7D59 /* LaunchScreen.storyboard */,
+				271B0F3F1CE12221003833E0 /* SwapicTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		27C9CD591CD2BB43003D7D59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CD541CD2B6B1003D7D59 /* SwapicTableViewController.swift */,
+				27C9CD561CD2BAB9003D7D59 /* SwapicTVCExtension.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		27C9CD5A1CD2BBA7003D7D59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2725906C1CDFA1EE00088467 /* Photo */,
+				2725906D1CDFA20E00088467 /* Network */,
+				27003AA11CD53ADA00C7C786 /* TypeExtensions.swift */,
+				275CFA3A1CD70B93005AF1BD /* Page.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C9CD221CD2AF9A003D7D59 /* Swapic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C9CD4B1CD2AF9C003D7D59 /* Build configuration list for PBXNativeTarget "Swapic" */;
+			buildPhases = (
+				27C9CD1F1CD2AF9A003D7D59 /* Sources */,
+				27C9CD201CD2AF9A003D7D59 /* Frameworks */,
+				27C9CD211CD2AF9A003D7D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swapic;
+			productName = Swapic;
+			productReference = 27C9CD231CD2AF9A003D7D59 /* Swapic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C9CD361CD2AF9C003D7D59 /* SwapicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C9CD4E1CD2AF9C003D7D59 /* Build configuration list for PBXNativeTarget "SwapicTests" */;
+			buildPhases = (
+				27C9CD331CD2AF9C003D7D59 /* Sources */,
+				27C9CD341CD2AF9C003D7D59 /* Frameworks */,
+				27C9CD351CD2AF9C003D7D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C9CD391CD2AF9C003D7D59 /* PBXTargetDependency */,
+			);
+			name = SwapicTests;
+			productName = SwapicTests;
+			productReference = 27C9CD371CD2AF9C003D7D59 /* SwapicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27C9CD411CD2AF9C003D7D59 /* SwapicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C9CD511CD2AF9C003D7D59 /* Build configuration list for PBXNativeTarget "SwapicUITests" */;
+			buildPhases = (
+				27C9CD3E1CD2AF9C003D7D59 /* Sources */,
+				27C9CD3F1CD2AF9C003D7D59 /* Frameworks */,
+				27C9CD401CD2AF9C003D7D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C9CD441CD2AF9C003D7D59 /* PBXTargetDependency */,
+			);
+			name = SwapicUITests;
+			productName = SwapicUITests;
+			productReference = 27C9CD421CD2AF9C003D7D59 /* SwapicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C9CD1B1CD2AF9A003D7D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TrhUArrayLUV;
+				TargetAttributes = {
+					27C9CD221CD2AF9A003D7D59 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					27C9CD361CD2AF9C003D7D59 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 27C9CD221CD2AF9A003D7D59;
+					};
+					27C9CD411CD2AF9C003D7D59 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 27C9CD221CD2AF9A003D7D59;
+					};
+				};
+			};
+			buildConfigurationList = 27C9CD1E1CD2AF9A003D7D59 /* Build configuration list for PBXProject "Swapic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C9CD1A1CD2AF9A003D7D59;
+			productRefGroup = 27C9CD241CD2AF9A003D7D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C9CD221CD2AF9A003D7D59 /* Swapic */,
+				27C9CD361CD2AF9C003D7D59 /* SwapicTests */,
+				27C9CD411CD2AF9C003D7D59 /* SwapicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C9CD211CD2AF9A003D7D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C9CD641CD2BD7C003D7D59 /* Keys.plist in Resources */,
+				27C9CD311CD2AF9C003D7D59 /* LaunchScreen.storyboard in Resources */,
+				27C9CD2E1CD2AF9C003D7D59 /* Assets.xcassets in Resources */,
+				27C9CD2C1CD2AF9B003D7D59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C9CD351CD2AF9C003D7D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C9CD401CD2AF9C003D7D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C9CD1F1CD2AF9A003D7D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C9CD5E1CD2BC3E003D7D59 /* Photo.swift in Sources */,
+				27C9CD571CD2BAB9003D7D59 /* SwapicTVCExtension.swift in Sources */,
+				275CFA3B1CD70B93005AF1BD /* Page.swift in Sources */,
+				27C9CD601CD2BCAF003D7D59 /* Gallery.swift in Sources */,
+				27C9CD551CD2B6B1003D7D59 /* SwapicTableViewController.swift in Sources */,
+				271B0F401CE12221003833E0 /* SwapicTableViewCell.swift in Sources */,
+				27003AA41CD53D9000C7C786 /* RandomNumberGenerator.swift in Sources */,
+				27C9CD621CD2BD35003D7D59 /* NetworkOperation.swift in Sources */,
+				27C9CD5C1CD2BBC0003D7D59 /* FlickrService.swift in Sources */,
+				27C9CD271CD2AF9B003D7D59 /* AppDelegate.swift in Sources */,
+				276CAA801CD3CEB300A50321 /* PhotoSize.swift in Sources */,
+				276CAA821CD3D0C000A50321 /* Random.swift in Sources */,
+				27003AA21CD53ADA00C7C786 /* TypeExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C9CD331CD2AF9C003D7D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DD6BB71CD7E27C00AED6C9 /* GalleryTests.swift in Sources */,
+				27828B5E1CDBEA0F00CAF151 /* NetworkRequestErrorTests.swift in Sources */,
+				27DD6BB31CD7CE3D00AED6C9 /* RandomisableTests.swift in Sources */,
+				27DD98191CDACD1900B6409E /* FlickrServiceTests.swift in Sources */,
+				27DD6BBB1CD8565500AED6C9 /* SwapicTableViewControllerTests.swift in Sources */,
+				27DD6BB51CD7CE9E00AED6C9 /* RandomTests.swift in Sources */,
+				2725906F1CDFC78400088467 /* MockPhotos.swift in Sources */,
+				275CFA3D1CD7C28E005AF1BD /* PageTests.swift in Sources */,
+				27003AAC1CD5BBF900C7C786 /* PhotoTests.swift in Sources */,
+				27DD6BBD1CD8671F00AED6C9 /* NetworkOperationTests.swift in Sources */,
+				27003AAA1CD5B3DF00C7C786 /* TypeExtensionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C9CD3E1CD2AF9C003D7D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C9CD471CD2AF9C003D7D59 /* SwapicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C9CD391CD2AF9C003D7D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C9CD221CD2AF9A003D7D59 /* Swapic */;
+			targetProxy = 27C9CD381CD2AF9C003D7D59 /* PBXContainerItemProxy */;
+		};
+		27C9CD441CD2AF9C003D7D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C9CD221CD2AF9A003D7D59 /* Swapic */;
+			targetProxy = 27C9CD431CD2AF9C003D7D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27C9CD2A1CD2AF9B003D7D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C9CD2B1CD2AF9B003D7D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27C9CD2F1CD2AF9C003D7D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C9CD301CD2AF9C003D7D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C9CD491CD2AF9C003D7D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27C9CD4A1CD2AF9C003D7D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C9CD4C1CD2AF9C003D7D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swapic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trhuarrayluv.Swapic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27C9CD4D1CD2AF9C003D7D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swapic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trhuarrayluv.Swapic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27C9CD4F1CD2AF9C003D7D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwapicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trhuarrayluv.SwapicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swapic.app/Swapic";
+			};
+			name = Debug;
+		};
+		27C9CD501CD2AF9C003D7D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwapicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trhuarrayluv.SwapicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swapic.app/Swapic";
+			};
+			name = Release;
+		};
+		27C9CD521CD2AF9C003D7D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwapicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trhuarrayluv.SwapicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Swapic;
+			};
+			name = Debug;
+		};
+		27C9CD531CD2AF9C003D7D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwapicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trhuarrayluv.SwapicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Swapic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C9CD1E1CD2AF9A003D7D59 /* Build configuration list for PBXProject "Swapic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C9CD491CD2AF9C003D7D59 /* Debug */,
+				27C9CD4A1CD2AF9C003D7D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C9CD4B1CD2AF9C003D7D59 /* Build configuration list for PBXNativeTarget "Swapic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C9CD4C1CD2AF9C003D7D59 /* Debug */,
+				27C9CD4D1CD2AF9C003D7D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C9CD4E1CD2AF9C003D7D59 /* Build configuration list for PBXNativeTarget "SwapicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C9CD4F1CD2AF9C003D7D59 /* Debug */,
+				27C9CD501CD2AF9C003D7D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C9CD511CD2AF9C003D7D59 /* Build configuration list for PBXNativeTarget "SwapicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C9CD521CD2AF9C003D7D59 /* Debug */,
+				27C9CD531CD2AF9C003D7D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C9CD1B1CD2AF9A003D7D59 /* Project object */;
+}
