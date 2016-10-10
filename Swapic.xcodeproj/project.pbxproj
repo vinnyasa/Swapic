@@ -90,7 +90,7 @@
 		27DD6BB61CD7E27C00AED6C9 /* GalleryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryTests.swift; sourceTree = "<group>"; };
 		27DD6BBA1CD8565500AED6C9 /* SwapicTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapicTableViewControllerTests.swift; sourceTree = "<group>"; };
 		27DD6BBC1CD8671F00AED6C9 /* NetworkOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperationTests.swift; sourceTree = "<group>"; };
-		27DD98181CDACD1900B6409E /* FlickrServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrServiceTests.swift; path = ../FlickrServiceTests.swift; sourceTree = "<group>"; };
+		27DD98181CDACD1900B6409E /* FlickrServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

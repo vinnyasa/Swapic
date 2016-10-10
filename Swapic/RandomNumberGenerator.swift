@@ -13,7 +13,7 @@ extension RandomNumberGenerator {
         return String(random)
     }
     
-    //returns a set on random numbers, make sure poolsize is big enough
+    //returns a set of random numbers
     func randomise(count : Int) -> Set<Int> {
         //creating a set so we don't have repeated indexes
         var randoms = Set<Int>()
