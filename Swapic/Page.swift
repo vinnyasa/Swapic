@@ -1,10 +1,9 @@
-//
-//  Page.swift
-//  Swapic
-//
-//  Created by Ahyathreah Effi-yah on 5/1/16.
-//  Copyright © 2016 TrhUArrayLUV. All rights reserved.
-//
+/*********************************************************************
+ ** Program name: Swapic Flicker app
+ ** Author: Vinny Harris-Riviello
+ ** Date: April 28, 2016
+ ** Description: struct Page helps select photos from different pages. 
+ *********************************************************************/
 
 import Foundation
 

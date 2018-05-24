@@ -1,10 +1,9 @@
-//
-//  NetworkOperation.swift
-//  Swapic
-//
-//  Created by Ahyathreah Effi-yah on 4/28/16.
-//  Copyright © 2016 TrhUArrayLUV. All rights reserved.
-//
+/*********************************************************************
+ ** Program name: Swapic Flicker app
+ ** Author: Vinny Harris-Riviello
+ ** Date: April 28, 2016
+ ** Description: class NetworkOperation responsible for network calls. 
+ *********************************************************************/
 
 import Foundation
 

@@ -1,10 +1,10 @@
-//
-//  SwapicTableViewCell.swift
-//  Swapic
-//
-//  Created by Ahyathreah Effi-yah on 5/9/16.
-//  Copyright © 2016 TrhUArrayLUV. All rights reserved.
-//
+/*********************************************************************
+ ** Program name: Swapic Flicker app
+ ** Author: Vinny Harris-Riviello
+ ** Date: April 28, 2016
+ ** Description: SwapicTableViewCell.swift custom cell
+ *********************************************************************/
+
 
 import UIKit
 

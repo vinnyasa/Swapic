@@ -1,10 +1,9 @@
-//
-//  TypeExtensionsTests.swift
-//  Swapic
-//
-//  Created by Ahyathreah Effi-yah on 4/30/16.
-//  Copyright © 2016 TrhUArrayLUV. All rights reserved.
-//
+/*********************************************************************
+ ** Program name: Swapic Flicker app
+ ** Author: Vinny Harris-Riviello
+ ** Date: May 1 2016
+ ** Description: TypeExtensionsTests.swift
+ *********************************************************************/
 
 import XCTest
 @testable import Swapic

@@ -1,11 +1,9 @@
-//
-//  MockPhotos.swift
-//  Swapic
-//
-//  Created by Ahyathreah Effi-yah on 5/8/16.
-//  Copyright © 2016 TrhUArrayLUV. All rights reserved.
-//
-
+/*********************************************************************
+ ** Program name: Swapic Flicker app
+ ** Author: Vinny Harris-Riviello
+ ** Date: May 1 2016
+ ** Description: Mocks for testing
+ *********************************************************************/
 import Foundation
 
 enum MockJsonResponse {

@@ -1,10 +1,9 @@
-//
-//  Random.swift
-//  Swapic
-//
-//  Created by Ahyathreah Effi-yah on 4/29/16.
-//  Copyright © 2016 TrhUArrayLUV. All rights reserved.
-//
+/*********************************************************************
+ ** Program name: Swapic Flicker app
+ ** Author: Vinny Harris-Riviello
+ ** Date: April 29, 2016
+ ** Description: Helper to handle random photos. 
+ *********************************************************************/
 
 import Foundation
 import UIKit
